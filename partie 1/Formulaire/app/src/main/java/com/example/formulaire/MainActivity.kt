@@ -14,6 +14,7 @@ import com.example.formulaire.ui.theme.FormulaireTheme
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+        setContentView(R.layout.activity_main)
         val nameInput: EditText = findViewById(R.id.nameInput)
         val emailInput: EditText = findViewById(R.id.emailInput)
         val submitButton: Button = findViewById(R.id.submitButton)
